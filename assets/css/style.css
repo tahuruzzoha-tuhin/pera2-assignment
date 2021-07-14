@@ -1,0 +1,437 @@
+*{
+   margin: 0;
+   padding: 0;
+   font-family: 'Poppins', sans-serif;
+
+}
+/*----------------------------
+     Header Style Start 
+------------------------------*/
+#header{
+    background-color: #2D25A0;
+}
+.header-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 20px;
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 30px;
+    align-items: center;
+}
+.header-text{
+    color: #FFFFFF; 
+    
+}
+.header-text h1{
+    font-size: 60px;
+    line-height: 80px;
+    margin-bottom: 20px;
+}
+.header-text a{
+    color:#fff;
+    background-color: #E02C6D;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    
+}
+#header:hover .header-img img {
+    transform: scale(-1);
+}
+
+.header-text i{
+    margin-left: 5px;
+}
+
+.header-img img{
+    width: 100%;
+    overflow: hidden;
+    transition: transform linear 3s;
+    
+}
+
+
+/*-----------------------------
+     Header Style End 
+-------------------------------*/
+
+/*----------------------------
+     Blogs Style Start 
+----------------------------*/
+#blogs{
+    margin:50px 0;
+}
+.blogs-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 80%;
+    margin: 0 auto;
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+}
+.blogs-iteam{
+    padding: 15px;
+    box-shadow: 1px 1px 4px 2px #F6F6F6;
+}
+.blog-img img{
+    width: 100%;
+}
+/*---------------------------
+     Blogs Style End 
+----------------------------*/
+
+/*---------------------------
+     Team Style Start 
+-----------------------------*/
+.team-title{
+    text-align: center;
+}
+.team-title h1{
+    font-size: 34px;
+    color: #E02C6D;
+}
+.team-title p{
+    text-align: center;
+}
+.team-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 80%;
+    margin: 0 auto;
+    grid-column-gap: 15px;
+     grid-row-gap: 20px;
+    padding-top: 30px;
+}
+.team-player{
+    padding: 15px;
+    box-shadow: 1px 1px 4px 2px #F6F6F6;
+    border-radius: 5px;
+}
+.player-img img{
+    width: 100%;
+}
+.player-description{
+    text-align: center;
+}
+.player-description p{
+    margin-bottom: 20px;
+}
+.player-description a{
+    color:#fff;
+    background-color: #E02C6D;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+}
+.player-button{
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.player-button i{
+    padding-left: 5px;
+}
+.player-button a{
+    color:#000;;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #E02C6D;
+    transition: ease all 1s;
+}
+.player-button a:hover{
+    background-color: #E02C6D ;
+    color: #fff;
+}
+
+/*---------------------------
+     Team Style End 
+-----------------------------*/
+
+/*-----------------------------
+     Photo gellery Style Start 
+-------------------------------*/
+#Photo-gellery{
+    margin-top: 50px;
+}
+#Photo-gellery h1{
+    font-size: 36px;
+    color: #E02C6D;
+    text-align: center;
+    margin-bottom: 15px;
+}
+#Photo-gellery p{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.photo-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 80%;
+    margin: 0 auto;
+    grid-row-gap: 15px;
+    grid-column-gap: 15px;
+}
+.photo-container img{
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px 2px #F6F6F6;
+}
+
+/*----------------------------
+     Photo gellery Style End 
+------------------------------*/
+
+/*---------------------------
+     Highlights Style Start 
+-----------------------------*/
+#highlights{
+    margin:50px 0;
+}
+.highlights-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 80%;
+    margin: 0 auto;
+    grid-column-gap: 24px;
+    align-items: center;
+}
+.highlights-text h1{
+    font-size: 48px;
+    line-height: 60px;
+}
+.highlights-text p{
+    margin: 30px 0;
+    line-height: 28px;
+    font-size: 16px;
+}
+.highlights-text a{
+    color:#fff;
+    background-color: #E02C6D;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+}
+.highlights-text i{
+    margin-left: 5px;
+}
+.highlights-img img{
+width: 100%;
+}
+/*----------------------------
+     Highlights Style End 
+-----------------------------*/
+/*-----------------------------
+     Footer Style Strat 
+------------------------------*/
+.footer-container{
+    width: 100%;
+    position: relative;
+    align-items: center;
+}
+.footer-logo{
+    display: flex;
+    justify-content: center;
+}
+.footer-item i{
+    width: 100%;
+}
+.footer-icon{
+    display: flex;
+    justify-content: center;
+
+}
+
+.footer-icon i{
+    height: 30px;
+    width: 30px;
+}
+.footer-text p{
+    text-align: center;
+    margin-bottom: 50px;
+    padding-top: 20px;
+}
+
+/*----------------------------
+     Footer Style End 
+-----------------------------*/
+
+
+
+
+
+
+
+
+
+/*************************************
+     Responsive Mobile  Style Start 
+*************************************/
+@media only screen and (max-width:688px){
+
+/******* Header Response Start *********/
+
+    .header-container{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    align-items: center;
+    width: 100%;
+    padding: 1%;
+    }
+    .header-text h1 {
+    font-size: 36px;
+    line-height: 50px;
+    }
+    .header-img img {
+    width: 70%;
+    margin-top: 20px;
+    margin-left: 30px;
+    }
+    /******* Header Response Start *********/
+
+    /******* Blogs Response start ********/
+
+    .blogs-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 90%;
+    margin: 0 auto;
+    grid-row-gap: 15px;
+    }
+
+    /******* Blogs Response start ********/
+
+    /******* Team Response start ********/
+    .team-title h1 {
+        font-size: 36px;
+        text-align: left;
+        margin-left: 28px;
+    }
+    .team-title p{
+        font-size: 12px;
+        text-align: left;
+        margin-left: 28px;
+    }
+    .team-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 90%;
+    margin: 0 auto;
+    grid-row-gap: 20px;
+    padding-top: 30px;
+    }
+    /******* Team Response End ********/
+
+    /******* Latest Response start ********/
+    .photo-container{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 80%;
+    margin: 0 auto;
+    grid-row-gap: 15px;
+    grid-column-gap: 15px;
+    }
+    #Photo-gellery h1{
+    text-align: left;
+    margin-left: 34px;
+    }
+    #Photo-gellery p{
+    text-align: left;
+    margin-left: 34px;
+    }
+    /******* Latest Response End ********/
+
+    .highlights-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 90%;
+    }
+    .highlights-text h1{
+    font-size: 30px;
+    line-height: 40px;
+    }
+    .highlights-text p{
+        font-size: 16px;
+        line-height: 28px;
+        margin-bottom: 20px;
+    }
+    .highlights-img img {
+        margin-top: 20px;
+    }
+    /******* Responsive footer Start *******/
+    
+    .footer-item img{
+        width: 120px;
+    }
+    .footer-icon{
+            margin-top: 30px;
+    }
+    /******* Responsive footer end *******/
+}
+
+/*-------------------------------------
+     Responsive Mobile  Style End 
+----------------------------------------*/
+
+/*--------------------------------------- 
+Responsive Tablet Start 
+----------------------------------------*/
+@media only screen and (min-width:689px) and (max-width:992px) {
+    .header-container{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%;
+    padding: 1%;
+    }
+    .header-img img {
+    width: 60%;
+    margin-top: 40px;
+    }
+    .header-text h1 {
+    font-size: 36px;
+    line-height: 50px;}
+    .blogs-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 90%;
+    margin: 0 auto;
+    grid-row-gap: 15px;
+    }
+    .team-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 90%;
+    margin: 0 auto;
+    grid-row-gap: 15px;
+    padding-top: 30px;
+    }
+   .photo-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 80%;
+    margin: 0 auto;
+    grid-row-gap: 15px;
+    grid-column-gap: 15px;
+    }
+    #Photo-gellery h1{
+    text-align: left;
+    margin-left: 34px;
+    }
+    #Photo-gellery p{
+    text-align: left;
+    margin-left: 34px;
+    }
+    .highlights-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 90%;
+    }
+    .highlights-img img{
+        margin-top: 30px;
+    }
+}

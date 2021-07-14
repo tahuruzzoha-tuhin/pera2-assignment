@@ -5,215 +5,317 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Responsive Football</title>
-
-    <!-- Font Awesome -->
-    <script src="https://kit.fontawesome.com/d247680303.js" crossorigin="anonymous"></script>
-
-    <!-- My CSS File -->
-
-    <link rel="stylesheet" href="style.css">
-
+    <title>Football Website</title>
+    <!------------ Font Awesome Icon ---------->
+    <script src="https://kit.fontawesome.com/643f1ab5cc.js" crossorigin="anonymous"></script>
+    <!------------ Google Fonts --------------->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <!------------ Link Style Sheet ----------->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/gallery.css">
 </head>
 
 <body>
-
-    <!-- Header Section Start -->
-
-    <header class="header-section">
-        <nav>
-            <ul>
-                <li>Home</li>
-                <li>Clubs</li>
-                <li>World Cup 2023</li>
-                <li>Upcoming Matches</li>
-                <li>Contact</li>
-            </ul>
-            <a href=""><i class="fas fa-sign-in-alt fas-login"></i><span>Login</span> </a>
-        </nav>
-
-        <div class="banner-section">
-            <div class="banner-title">
-                <h1 id="title">Conmebol <br>
-                    Copa America <br>
-                    2021</h1>
-                <a class="watch-live" href="">Watch Live<i class="fas fa-arrow-right fas-w"></i></a>
+    <!---------- Header Section Start ------------>
+    <header>
+        <section id="header">
+            <div class="header-container">
+                <div class="header-text">
+                    <h1>Conmebol <br> Copa America 2021</h1>
+                    <a class="header-button" href="">Watch Live <i class="fas button fa-arrow-right"></i></a>
+                </div>
+                <div class="header-img">
+                    <img src="assets/images/banner.png" alt="">
+                </div>
             </div>
-
-            <div class="banner-img">
-                <img src="./images/banner.png" alt="It is a Banner">
-            </div>
-        </div>
+        </section>
     </header>
-
-    <!-- Header Section End -->
-
-    <!-- Main Start  -->
+    <!---------- Header Section End -------------->
     <main>
 
-        <!-- First Section  -->
-        <section class="section">
-            <div class="players">
-                <div class="player">
 
-                    <img src="./images/players/player-1.png" alt="">
-                    <div class="player-info">
-                        <h1>Neymar Jr</h1>
-                        <p>Neymar da Silva Santos Júnior, known as Neymar, is a Brazilian professional footballer who
-                            plays as a forward for Ligue 1 club Paris Saint-Germain.</p>
-                    </div>
+        <!---------- Blogs Section Strat ------------->
 
-                </div>
-
-                <div class="player">
-                    <img src="./images/players/player-2.png" alt="">
-                    <div class="player-info">
-                        <h1>Lionel Messi</h1>
-                        <p>Lionel Andrés Messi is an Argentine professional footballer who plays as a forward or an
-                            attacking midfielder and captains the Argentina national team.</p>
-                    </div>
-                </div>
-
-                <div class="player">
-                    <img src="./images/players/player-3.png" alt="">
-                    <div class="player-info">
-                        <h1>Cristiano Ronaldo</h1>
-                        <p>Cristiano Ronaldo dos Santos Aveiro GOIH ComM is a Portuguese professional footballer who
-                            plays as a forward for Serie A club Juventus and captains the Portugal national team.</p>
-                    </div>
-                </div>
-
-                <div class="player">
-                    <img src="./images/players/player-4.png" alt="">
-                    <div class="player-info">
-                        <h1>Paulo Dybala</h1>
-                        <p>Paulo Exequiel Dybala is an Argentine professional footballer who plays as a forward for
-                            Serie A club Juventus and the Argentina national team. </p>
-                    </div>
-                </div>
-
-                <div class="player">
-                    <img src="./images/players/player-5.png" alt="">
-                    <div class="player-info">
-                        <h1>Mesut Ozil</h1>
-                        <p>Mesut Özil is a German professional footballer who plays as an attacking midfielder for Süper
-                            Lig club Fenerbahçe. Nicknamed "The Assist King", Özil is known for his technical skills,
-                            creativity, agility, and finesse.</p>
-                    </div>
-                </div>
-
-                <div class="player">
-                    <img src="./images/players/player-6.png" alt="">
-                    <div class="player-info">
-                        <h1>Mauro Icardi</h1>
-                        <p>Mauro Emanuel Icardi is an Argentine professional footballer who plays as a striker for Ligue
-                            1 club Paris Saint-Germain and the Argentina national team.</p>
-                    </div>
-                </div>
-
-                <div class="player">
-                    <img src="./images/players/player-7.png" alt="">
-                    <div class="player-info">
-                        <h1>Di Maria</h1>
-                        <p>Ángel Fabián Di María is an Argentine professional footballer who plays for Ligue 1 club
-                            Paris Saint-Germain and the Argentina national team. He can play as either a winger or
-                            attacking midfielder.</p>
-                    </div>
-                </div>
-
-                <div class="player">
-                    <img src="./images/players/player-8.png" alt="">
-                    <div class="player-info">
-                        <h1>Kylian Mbappé</h1>
-                        <p>Kylian Mbappé Lottin is a French professional footballer who plays as a forward for Ligue 1
-                            club Paris Saint-Germain and the France national team.</p>
-                    </div>
-                </div>
-
-                <div class="player">
-                    <img src="./images/players/player-9.png" alt="">
-                    <div class="player-info">
-                        <h1>Mohamed Salah</h1>
-                        <p>Mohamed Salah Hamed Mahrous Ghaly is an Egyptian professional footballer who plays as a
-                            forward for Premier League club Liverpool and captains the Egypt national team.</p>
-                    </div>
-                </div>
-
-                <div class="player">
-                    <img src="./images/players/player-10.png" alt="">
-                    <div class="player-info">
-                        <h1>Harry Kane</h1>
-                        <p>Harry Edward Kane MBE is an English professional footballer who plays as a striker for
-                            Premier League club Tottenham Hotspur and captains the England national team.</p>
-                    </div>
-                </div>
-
-                <div class="player">
-                    <img src="./images/players/player-11.png" alt="">
-                    <div class="player-info">
-                        <h1>Kevin De Bruyne</h1>
-                        <p>Kevin De Bruyne is a Belgian professional footballer who plays as a midfielder for Premier
-                            League club Manchester City, where he is vice-captain, and the Belgium national team.</p>
-                    </div>
-                </div>
-
-                <div class="player">
-                    <img src="./images/players/player-12.png" alt="">
-                    <div class="player-info">
-                        <h1>Philippe Coutinho</h1>
-                        <p>Philippe Coutinho Correia is a Brazilian professional footballer who plays as an attacking
-                            midfielder or winger for Spanish club Barcelona and the Brazil national team.</p>
-                    </div>
-                </div>
-
-            </div>
-
-
-        </section>
-
-        <!-- second section  -->
-        <section class="section">
-            <div class="flexible">
-                <article class="highlights">
-                    <h1>All Highlights <br>
-
-                        Copa America 2021</h1>
-                    <p>Argentina won their first major title in 28 years on Saturday when an Angel Di Maria goal gave
-                        them a 1-0 win over Brazil and a record-equalling 15th Copa America.</p>
-                    <div id="live-watch-down">
-                        <a class="watch-live" href="">Watch Live<i class="fas fa-arrow-right fas-w"></i></a>
+        <section id="blogs">
+            <div class="blogs-container">
+                <article>
+                    <div class="blogs-iteam">
+                        <div class="blog-img">
+                            <img src="assets/images/players/player-1.png" alt="">
+                        </div>
+                        <div class="blog-text">
+                            <h3>Neymar Jr</h3>
+                            <p>The history of the rivalry between Argentina and Brazil can be traced back to a time when
+                            The 2021 Copa America final will see two titans of South American football.</p>
+                        </div>
                     </div>
                 </article>
 
-                <div class="match-img">
-                    <img src="./images/match.png" alt="">
-                </div>
+                <article>
+                    <div class="blogs-iteam">
+                        <div class="blog-img">
+                            <img src="assets/images/players//player-2.png" alt="">
+                        </div>
+                        <div class="blog-text">
+                            <h3>Messi</h3>
+                            <p>The history of the rivalry between Argentina and Brazil can be traced back to a time when
+                            The 2021 Copa America final will see two titans of South American football.</p>
+                        </div>
+                    </div>
+                </article>
+
+                <article>
+                    <div class="blogs-iteam">
+                        <div class="blog-img">
+                            <img src="assets/images/players/player-3.png" alt="">
+                        </div>
+                        <div class="blog-text">
+                            <h3>Ronaldho CR7</h3>
+                            <p>The history of the rivalry between Argentina and Brazil can be traced back to a time when
+                            The 2021 Copa America final will see two titans of South American football.</p>
+                        </div>
+                    </div>
+                </article>
+
+                <article>
+                    <div class="blogs-iteam">
+                        <div class="blog-img">
+                            <img src="assets/images/players/player-4.png" alt="">
+                        </div>
+                        <div class="blog-text">
+                            <h3>Dibala</h3>
+                            <p>The history of the rivalry between Argentina and Brazil can be traced back to a time when
+                            The 2021 Copa America final will see two titans of South American football.</p>
+                        </div>
+                    </div>
+                </article>
+
+                <article>
+                    <div class="blogs-iteam">
+                        <div class="blog-img">
+                            <img src="assets/images/players/player-5.png" alt="">
+                        </div>
+                        <div class="blog-text">
+                            <h3>Mesut Ozil</h3>
+                            <p>The history of the rivalry between Argentina and Brazil can be traced back to a time when
+                            The 2021 Copa America final will see two titans of South American football.</p>
+                        </div>
+                    </div>
+                </article>
+                <article>
+                    <div class="blogs-iteam">
+                        <div class="blog-img">
+                            <img src="assets/images/players/player-6.png" alt="">
+                        </div>
+                        <div class="blog-text">
+                            <h3>Astiyano</h3>
+                            <p>The history of the rivalry between Argentina and Brazil can be traced back to a time when
+                            The 2021 Copa America final will see two titans of South American football.</p>
+                        </div>
+                    </div>
+                </article>
+
+                <article>
+                    <div class="blogs-iteam">
+                        <div class="blog-img">
+                            <img src="assets/images/players/player-7.png" alt="">
+                        </div>
+                        <div class="blog-text">
+                            <h3>D- Mariya</h3>
+                            <p>The history of the rivalry between Argentina and Brazil can be traced back to a time when
+                            The 2021 Copa America final will see two titans of South American football.</p>
+                        </div>
+                    </div>
+                </article>
+
+                <article>
+                    <div class="blogs-iteam">
+                        <div class="blog-img">
+                            <img src="assets/images/players/player-8.png" alt="">
+                        </div>
+                        <div class="blog-text">
+                            <h3>M Bappe</h3>
+                            <p>The history of the rivalry between Argentina and Brazil can be traced back to a time when
+                            The 2021 Copa America final will see two titans of South American football.</p>
+                        </div>
+                    </div>
+                </article>
+
+                <article>
+                    <div class="blogs-iteam">
+                        <div class="blog-img">
+                            <img src="assets/images/players/player-9.png" alt="">
+                        </div>
+                        <div class="blog-text">
+                            <h3>Abu Slah</h3>
+                            <p>The history of the rivalry between Argentina and Brazil can be traced back to a time when
+                            The 2021 Copa America final will see two titans of South American football.</p>
+                        </div>
+                    </div>
+                </article>
+
+                <article>
+                    <div class="blogs-iteam">
+                        <div class="blog-img">
+                            <img src="assets/images/players/player-10.png" alt="">
+                        </div>
+                        <div class="blog-text">
+                            <h3>Henric</h3>
+                            <p>The history of the rivalry between Argentina and Brazil can be traced back to a time when
+                            The 2021 Copa America final will see two titans of South American football.</p>
+                        </div>
+                    </div>
+                </article>
+
+                <article>
+                    <div class="blogs-iteam">
+                        <div class="blog-img">
+                            <img src="assets/images/players/player-11.png" alt="">
+                        </div>
+                        <div class="blog-text">
+                            <h3>Adiction</h3>
+                            <p>The history of the rivalry between Argentina and Brazil can be traced back to a time when
+                            The 2021 Copa America final will see two titans of South American football.
+                            </p>
+                        </div>
+                    </div>
+                </article>
+
+                <article>
+                    <div class="blogs-iteam">
+                        <div class="blog-img">
+                            <img src="assets/images/players/player-12.png" alt="">
+                        </div>
+
+                        <div class="blog-text">
+                            <h3>Jwesus</h3>
+                            <p>The history of the rivalry between Argentina and Brazil can be traced back to a time when
+                            The 2021 Copa America final will see two titans of South American football.
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
             </div>
         </section>
 
 
-    </main>
 
-    <!-- Main End  -->
+        <!---------- Blogs Section End --------------->
 
-    <!-- Footer Start  -->
 
-    <footer>
-        <div class="footer-section">
-            <img src="./images/Logo.png" alt="">
-            <div id="social-icons">
-                <img src="./images/Social Icons/Dribbble.png" alt="">
-                <img src="./images/Social Icons/Instagram.png" alt="">
-                <img src="./images/Social Icons/Twitter.png" alt="">
-                <img src="images/Social Icons/Youtube.png" alt="">
+
+
+
+        <!---------- Highlights Section Start -------->
+        <section id="highlights">
+            <div class="highlights-container">
+                <div class="highlights-text">
+                    <h1>All Highlights <br>
+                        Copa America 2021</h1>
+                    <p>We are Alawys Try to Update News. We are Brodcust Any Play like Cricket Foot Ball , Volley Ball
+                        You
+                        get the Update News Please Contiue with Us </p>
+                    <a href="">Watch Live <i class="fas button fa-arrow-right"></i></a>
+                </div>
+                <div class="highlights-img">
+                    <img src="assets/images/match.png" alt="">
+                </div>
+            </div>
+        </section>
+        <!---------- Highlights Section End ---------->
+
+
+
+       <!-- Video Galley -->
+
+       <section>
+        <div class="photo-title">
+            <h1>Our Video</h1>
+            <p>Our Fashionable player We Are ready for Hard Working</p>
+        </div>
+        <div class="grid-row reverse video-gallery">
+            <input type="radio" value="1" name="video-list" id="video-1" checked="checked" /><label for="video-1">Option 1</label>
+            <input type="radio" value="2" name="video-list" id="video-2" /><label for="video-2">Option 2</label>
+            <input type="radio" value="3" name="video-list" id="video-3" /><label for="video-3">Option 3</label>
+            <input type="radio" value="4" name="video-list" id="video-4" /><label for="video-4">Option 4</label>
+            <input type="radio" value="5" name="video-list" id="video-5" /><label for="video-5">Option 5</label>
+            <!-- <input type="radio" value="6" name="video-list" id="video-6" /><label for="video-6">Option 6</label> -->
+            <!-- videos -->
+            <div class="video video-1">
+             <iframe width="560" height="315" src="https://www.youtube.com/embed/ROqDTIxRX0Y" frameborder="0" allowfullscreen></iframe>
+            </div>
+           
+            <div class="video video-2">
+             <iframe width="560" height="315" src="https://www.youtube.com/embed/9iGoDNlKY-g" frameborder="0" allowfullscreen></iframe>
+            </div>
+           
+            <div class="video video-3">
+             <iframe width="560" height="315" src="https://www.youtube.com/embed/l70UhhNalqA" frameborder="0" allowfullscreen></iframe>
+            </div>
+           
+            <div class="video video-4">
+             <iframe width="560" height="315" src="https://www.youtube.com/embed/XDrB5c4-c9Y" frameborder="0" allowfullscreen></iframe>
+            </div>
+           
+            <div class="video video-5">
+             <iframe width="560" height="315" src="https://www.youtube.com/embed/UXP307MGQzs" frameborder="0" allowfullscreen></iframe>
+            </div>
+           
+            <!-- <div class="video video-6">
+             <iframe width="560" height="315" src="https://www.youtube.com/embed/0kY0Q5hdjDI" frameborder="0" allowfullscreen></iframe>
+            </div> -->
+            <!-- videos -->
+           </div>
+
+       </section>
+
+        <!---------- Latest Match Section Start ---------->
+
+        <section id="Photo-gellery">
+            <div class="photo-title">
+                <h1>Our Photo</h1>
+                <p>Our Fashionable player We Are ready for Hard Working</p>
+            </div>
+            <div class="photo-container">
+                <img src="assets/images/players/player-10.png" alt="">
+                <img src="assets/images/players/player-1.png" alt="">
+                <img src="assets/images/players/player-8.png" alt="">
+                <img src="assets/images/players/player-2.png" alt="">
+                <img src="assets/images/players/player-4.png" alt="">
+                <img src="assets/images/players/player-5.png" alt="">
+
             </div>
 
+        </section>
 
-            <p>Copyright &copy; 2022 Football</p>
+        
+    </main>
+
+
+    <!-------- Footer Section Start ----------------->
+    <section id="footer">
+        <div class="footer-container">
+            <div class="footer-logo">
+                <div class="footer-item">
+                    <img src="assets/images/football-logo-designs-inspiration-isolated-on-vector-22776847 1.png" alt="">
+                </div>
+                <div class="footer-item">
+                    <img src="assets/images/Football.png" alt="">
+                </div>
+            </div>
+            <div class="footer-icon">
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-dribbble"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-youtube"></i>
+            </div>
+            <div class="footer-text">
+                <p>Copyright &copy; 2022 Football</p>
+            </div>
         </div>
-    </footer>
-
-    <!-- Footer End  -->
+    </section>
+    <!-------- Footer Section End ----------------->
 
 </body>
 

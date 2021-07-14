@@ -1,6 +1,6 @@
-/*****************\
-Main Content Style 
-\*****************/
+/************************\
+    Body Content Style 
+\************************/
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500;600;700;800&display=swap');
 
@@ -11,18 +11,13 @@ body{
 }
 
 
-/*****************\
-Header Content Style 
-\*****************/
-
-header{
+/********************************\
+    Navigation Content Style 
+\********************************/ 
+.header-section{
     background-color: #2D25A0;
     margin-bottom: 70px;
 }
-
-/*****************\
-Navigation Content Style 
-\*****************/ 
 
 nav{
     display: flex;
@@ -32,12 +27,14 @@ nav{
     margin-right: 124px;
     align-items: center;
 }
+
 nav ul{
     display: flex;
     list-style: none;
     color: #FFFF;
     
 }
+
 nav ul li{
     margin: 0 17px;    
 }
@@ -55,9 +52,10 @@ nav a{
 
 }
 
-.banner-img:hover{
-    /* transform: scale(1.5); */
-}
+/* .banner-img:hover{
+    transform: scale(1.5);
+} */
+
 .fas-login{
     margin-right: 8px;
     
@@ -65,6 +63,7 @@ nav a{
     margin-bottom: 10px;
    
 }
+
 .span{
     font-size: 16px;
     font-weight: 500;
@@ -73,8 +72,11 @@ nav a{
 
 
 
-/* header banner */
-.full-banner{
+/***************************\
+    Banner Section Style 
+\***************************/ 
+
+.banner-section{
     display: flex;
     justify-content: center;
 }
@@ -83,6 +85,7 @@ nav a{
   margin-left: 50px;
     margin-top: 207px;
 }
+
 #title{
     color: #FFFF;
     width: 485px;
@@ -92,21 +95,22 @@ nav a{
     font-weight: bold;
     font-size: 64px;
     line-height: 80px;
-    }
+}
+
 .banner-title a{
     color: #FFFF;
     text-decoration: none;
     padding: 10px 24px;
     background-color: #E02C6D;
     align-items: center;
-    
-    
 }
-.watch{
+
+.watch-live{
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
 }
+
 .banner-img{
     padding-left: 51px;
     margin-top: 153px;
@@ -121,15 +125,17 @@ nav a{
 .fas-w{
     margin-left: 8px;
 }
-/* header end */
-/* main start*/
-.section-one{
+
+
+/*************************\
+    Main Content Style 
+\*************************/ 
+.section{
     display: flex;
     justify-content: center;
 }
 
-/* section one start */
-.all-player{
+.players{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-column-gap: 30px;
@@ -151,9 +157,10 @@ nav a{
     margin: 15px 15px 15px 16px;;
   
 }
+
 .player-info{
     width: 300px;
-margin: 0px 15px 33px 15px ;
+    margin: 0px 15px 33px 15px ;
     height: 154;
     
 }
@@ -162,43 +169,51 @@ margin: 0px 15px 33px 15px ;
     font-size: 24px;
     font-weight: 700;
 }
+
 .player-info p{
     font-weight: 400;
     font-size: 16px;
     color: #6C6C6C;
     margin: 10px 0 33px 0;
 }
-/* section one end */
-/* section two start */
-.side-by-side{
+
+
+/*****************************\
+    Highlight Section Style 
+\*****************************/ 
+.flexible{
     display: flex;
     width: 80%;
     margin: auto;
     
 
 }
+
 .match-img{
     width: 50%;
     height: auto;
     margin-right: 20px;
     margin-top: 30px;
 }
+
 .match-img img{
     width: 100%;
     height: auto;
 }
 
-.blog{
+.highlights{
     width: 50%;
     height: auto;
     margin-top: 50px;
     margin-left: 20px;
 
 }
-#live-watch{
+
+#live-watch-down{
     margin-top: 130px;
 }
-.blog h1{
+
+.highlights h1{
     color:black;
     width: 469px;
     height: 120px;
@@ -208,12 +223,14 @@ margin: 0px 15px 33px 15px ;
     font-size: 48px;
     line-height: 60px;
 }
-.blog p{
+
+.highlights p{
     font-weight: 400;
     font-size: 16px;
     color: #6C6C6C;
 }
-.blog a{
+
+.highlights a{
     color: #FFFF;
     text-decoration: none;
     padding: 10px 24px;
@@ -221,39 +238,35 @@ margin: 0px 15px 33px 15px ;
     align-items: center;
 }
 
-/* blogs end */
-/* footer start */
+/*************************\
+    Footer Content Style 
+\*************************/ 
+
 footer{
     margin-top: 158px;
 }
 
-
-
-.footer-img{
+.footer-section{
     display: flex;;
     flex-direction: column;
-
-align-items: center;
- 
-   
-    
-
+    align-items: center;
 }
-.footer-img img{
+
+.footer-section img{
     width: 483px;
     height: 110px;
 }
 
-.footer-img p{
+.footer-section p{
     font-size: 18px;
     line-height: 24px;
+}
+
+#social-icons{
+    margin: 20px 0;
 }
 
 #social-icons img{
     width: 32px;
     height: 32px;
-
-}
-#social-icons{
-    margin: 20px 0;
 }

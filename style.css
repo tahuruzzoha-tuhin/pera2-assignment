@@ -10,3 +10,63 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
+
+/*****************\
+Header Content Style 
+\*****************/
+
+header{
+    background-color: #2D25A0;
+    margin-bottom: 70px;
+}
+
+/*****************\
+Navigation Content Style 
+\*****************/ 
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 42px;
+    margin-left: 156px;
+    margin-right: 124px;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    color: #FFFF;
+    
+}
+nav ul li{
+    margin: 0 17px;    
+}
+
+nav a{
+    text-decoration: none;
+    padding-right: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #FFFF;
+    padding-left: 24px;
+
+    
+    background-color: #E02C6D;
+
+}
+
+.banner-img:hover{
+    /* transform: scale(1.5); */
+}
+.fas-login{
+    margin-right: 8px;
+    
+    margin-top: 10px;
+    margin-bottom: 10px;
+   
+}
+.span{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
